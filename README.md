@@ -1,4 +1,4 @@
-# notes-watchman
+# notes-facebook-watchman
 
 ## Ubuntu Config
 ```sh
