@@ -5,7 +5,7 @@
 # Get Value
 cat /proc/sys/fs/inotify/max_user_watches
 # Set Value
-echo fs.inotify.max_user_watches=32768 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+echo fs.inotify.max_user_watches=65536 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 # Get Value
 cat /proc/sys/fs/inotify/max_user_instances
